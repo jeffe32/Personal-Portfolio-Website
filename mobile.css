@@ -1,0 +1,75 @@
+/* Mobile styles - screens up to 480px */
+
+/* Navigation styling for mobile */
+
+.left-side-header {
+    /* Removes the offset from the left */
+    margin-left: 0;
+    /* Centers the align navigation links */
+    text-align: center;
+}
+
+.left-side-header a {
+    /* Sets the font size */
+    font-size: 14px;
+    /* Reduces the spacing between the links */
+    margin: 5px 10px;
+}
+
+.Home-page-left a {
+    /* Sets the font size */
+    font-size: 14px;
+}
+
+/* Centered intro text container */
+.text-center {
+    /* Sets the width almost full */
+    width: 90%;
+    /* Centers vertically with the top spacing */
+    margin: 20% auto 20px auto;
+    /* Center the align text */
+    text-align: center;
+}
+
+.left-center-text {
+    /* Sets the left margin */
+    margin-left: 0;
+    /* Sets the font size */
+    font-size: 19.2px;
+    /* Makes the line spacing */
+    line-height: 1.4px;
+}
+
+/* Profile image container */
+.pos-center {
+    /* Relative positioning */
+    position: relative;
+    /* Makes the container width smaller */
+    width: 80%;
+    /* Centers it horzontally with some top and bottom margins */
+    margin: 20px auto;
+    /* Auto sets the height */
+    height: auto;
+}
+
+/* Profile image styling */
+.img_deg {
+    /* Makes it block level for centering */
+    display: block;
+    /* Centers the image horizontally */
+    margin: 0 auto;
+    /* Sets the width smaller for mobile */
+    width: 250px;
+    /* Auto sets the height */
+    height: auto;
+}
+
+/* Footer adjustments */
+.footer-pos {
+    /* Reduces the spacing above footer */
+    margin-top: 40px;
+    /* Sets the top and bottom padding */
+    padding: 10px 0;
+    /* Centers the text */
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+
+<!-- Decleares the document as a HTML5 type -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- This specifies the character endoing for the HTML docment -->
+    <meta charset="UTF-8" />
+    <!-- This is the page title that is displayed in the browser tab -->
+    <title>Portfolio</title>
+
+    <!-- Linking the external CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-width: 480px)">   
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width: 481px) and (max-width: 959px)">
+    <link rel="stylesheet" type="text/css" href="laptop.css" media="only screen and (min-width: 960px)">
+
+    <!-- This is the google fonts preconnect to google fonts for faster
+    font loading -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- This is the header section (The navigation bar) -->
+    <header>
+      <!-- The left side: home page link -->
+      <div class="Home-page-left">
+        <a href="index.html">Home Page</a>
+      </div>
+
+      <!-- This is the right side navigation links -->
+      <div class="left-side-header">
+        <a href="aboutMe.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contactMe.html">Contact Me</a>
+      </div>
+
+      <!-- Horizontal line below the navigation in the color white -->
+      <hr background color="white" />
+    </header>
+
+    <!-- The introduction text at the center of the page -->
+    <div class="text-center">
+      <h1 class="left-center-text"><font color = "white">Hi, I'm </font><font color="#0584f4">Kanth</font><font color="white"> Manotheepan</font></h1>
+      <h1 class="left-center-text"><font color="white">A </font><font color="#0584f4">Cybersecurity</font><font color="white"> Student From Ontario Tech University</font></h1>
+    </div>
+
+    <!-- The profile image -->
+    <div class="pos-center">
+      <img
+        src="images.jpg"
+        alt="Avatar"
+        class="img_deg"
+        width="350"
+        height="350"
+      />
+    </div>
+
+    <!-- The footer section -->
+    <footer>
+      <div class="footer-pos">
+        <!-- The Contact email -->
+        <p>Contact: <a href="mailto:Rishikanth.manotheepan@ontariotechu.net">Rishikanth.manotheepan@ontariotechu.net</a></a></p>
+        <!-- Copyright -->
+        <p>&copy;2025 Rishikanth Manotheepan</p>
+      </div>
+    </footer>
+  </body>
+</html>

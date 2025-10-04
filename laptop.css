@@ -1,0 +1,67 @@
+/* Laptop/Desktop styles */
+
+/* Navigation styling for laptop */
+.left-side-header {
+    /* Sets the original offset for the laptop/desktop layout */
+    margin-left: 63%;
+    /* Sets the right align for the naviagtion links */
+    text-align: right;
+}
+
+.left-side-header a {
+    /* Sets the font size */
+    font-size: 18px;
+    /* Sets larger space between the links */
+    margin: 10px 30px;
+}
+
+.Home-page-left a {
+    /* Sets the font size */
+    font-size: 18px;
+}
+
+/* Centered intro text */
+.text-center {
+    /* Sets the width to half page */
+    width: 40%;
+    /* Sets the top spacing */
+    margin-top: 15%;
+    /* pushies the text to the right to center */
+    margin-left: 14%;
+}
+
+.left-center-text {
+    /* Reset the left margin */
+    margin-left: 0;
+    font-size: 32px;
+}
+
+/* Profile image container */
+.pos-center {
+    /* Sets the position to absolute  */
+    position: absolute;
+    /* Sets the width for the container */
+    width: 80%;
+    /* Sets the height */
+    height: 1000px;
+    /* Pushes the container to the right */
+    margin-left: 16%;
+}
+
+/* Profile image styling */
+.img_deg {
+    /* Pushes the image to the right */
+    margin-left: 54%;
+    /* Adds spacing on the right */
+    margin-right: 200px;
+    /* Moves the image up for visual alignment */
+    margin-top: -20%;
+}
+
+/* Footer adjustments */
+.footer-pos {
+    /* Spaces above the footer */
+    margin-top: 15%;
+    /* Center the footer text */
+    text-align: center;
+}

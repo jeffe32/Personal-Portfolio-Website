@@ -1,0 +1,443 @@
+/* Centers the heading text slightly to the right */
+.left-center-text {
+    margin-left: 25%;
+}
+
+/* Positions the intro text block in the center of the page */
+.text-center {
+    /* This allows for a manual placment ignoring the
+    normal page flow  */
+    /* block takes the half of the page width */
+    width: 50%;
+    /* This pushes it down from the top */
+    margin-top: 18%;
+
+}
+
+/* These are the general body styles */
+body {
+    /* Makes the background the color black */
+    background-color: black; 
+    /* Custom font from google fonts */
+    font-family: "Lexend Deca", sans-serif;
+    /* This makes the default text color black */
+    color: black
+}
+
+/* The styles for the profile image */
+.img_deg {
+    /* Aligns the image to the right */
+    /* Spacing the image to the left elements */
+    margin-left: 58%;
+    /* spacing the image from the right edge */
+    margin-right: 200px;
+    /* This pushes the image down */
+    margin-top: -20%;
+}
+
+/* This position the avatar contanier */
+.pos-center {
+    /* sets the position to relative */
+    position: relative; 
+    /* Sets the width 80 making the image bigger */
+    width: 80%;
+    /* center horizontally */
+    margin: 0 auto; 
+}
+
+
+/* Blue text class */
+.blue-text {
+    /* Makes the text color bright blue */
+    color: rgb(5, 132, 244)
+}
+
+/* White text class */
+.white-text {
+    /* Makes the text color white */
+    color: white;
+}
+
+/* The navigation bar (right side links) */
+.left-side-header {
+    /* Makes the text color white */
+    color: white;
+    /* This pushes the nav links to the right */
+    margin-left: 63%;
+
+}
+
+/* Style for the links that are inside the right-side header */
+.left-side-header a {
+    /* Makes the link color the color white */
+    color: white;
+    /* Removes the underline */
+    text-decoration: none;
+    /* Makes the font size a little bit bigger */
+    font-size: 18px;
+    /* Spacing between the links  */
+    margin: 10px 30px;
+}
+
+/* The home page link for the left side of the header */
+.Home-page-left {
+    /* Aligns it to the left side */
+    float: left;
+    /* Spacing from the edge */
+    margin-left: 13%;
+}
+
+/* Styles for hte home page link for the left side of the header */
+.Home-page-left a {
+    /* Removes the underline */
+    text-decoration: none;
+    /* Makes the font side 18px */
+    font-size: 18px;
+    /* Makes the text the color white */
+    color: white;
+}
+
+/* THe horizontal line clears of the floated elements above */
+hr {
+    /* Ensures that it doesn't overlap with the floated elements */
+    clear: both
+}
+
+/* Footer styling */
+.footer-pos {
+    /* This pushes the footer down */
+    margin-top: 19%;
+    /* Makes the background of the footer black */
+    background-color: black;
+    /* Makes space above the footer text */
+    padding-top: 5px;
+    /* Makes space below the footer text */
+    padding-bottom: 5px;
+    /* Makes the text color white */
+    color: white;
+    /* Centers aligns the text */
+    text-align: center;
+}
+
+/* Style for projects.html */
+
+/* THe main title section for projects page */
+.title-center {
+    /* Sets the font size to 20px */
+    font-size: 20px;
+    /* Pushes the heading to the right */
+    margin-left: 26%;
+}
+
+/* Section used to move the project blocks down */
+.moving-down-p {
+    /* Pushes the section to the right */
+    margin-left: 13%;
+    /* MOves the section to up */
+    margin-top: -1%;
+}
+
+/* Project 1 box styling */
+.box-1 {
+    /* Position the box horizontally */
+    margin-left: 23%;
+    /* Sets the box1's width */
+    width: 400px;
+    /* Sets the box1's height */
+    height: 300px;
+    /* Centers the text inside the box */
+    text-align: center;
+    /* Set the background to the color white */
+    background-color: white;
+    /* Gradient background for the box */
+    background: -moz-linear-gradient(left,rgb(0,97,255),rgb(96,239,255));
+    background: -webkit-linear-gradient(left,rgb(0,97,255),rgb(96,239,255));
+    background: linear-gradient(to right,rgb(0,97,255),rgb(96,239,255));
+    
+    /* Space the between lines of the text */
+    line-height: 200%;
+}
+
+/* The title box inside the project 1 box */
+.title-box-1 {
+    /* Sets the font color to white */
+    color: white;
+    /* Matches the box1's width */
+    width: 400px;
+    /* Sets the background of the title box to a dark red */
+    background-color: rgb(171, 8, 8);
+}
+
+/* Project 2 box styling */
+.box-2 {
+    /* Sets the background to white */
+    background-color: white;
+    /* Gradient background for the project 2 box */
+    background: -moz-linear-gradient(left,rgb(0,97,255),rgb(96,239,255));
+    background: -webkit-linear-gradient(left,rgb(0,97,255),rgb(96,239,255));
+    background: linear-gradient(to right,rgb(0,97,255),rgb(96,239,255));
+    /* Sets the box2's width */
+    width: 400px;
+    /* Sets the box2's height */
+    height: 300px;
+    /* Positions the box 2 horizontally */
+    margin-left: 54.3%;
+    /* Adjusts the box2's vertical postion */
+    margin-top: -21.1%;
+    /* Centers the text */
+    text-align: center;
+    /* Lines spacing */
+    line-height: 190%;
+}
+
+/* Title box inside the project 2 box */
+.title-box-2 {
+    /* Matches the box's width */
+    width: 400px;
+    /* Sets the background of the title box to a dark red */
+    background-color: rgb(171, 8, 8);
+    color: white;
+}
+
+/* Project 3 title's styling */
+.title-box-3 {
+    /* Sets the width for big box */
+    width: 1170px;
+    /* Sets the background color to a orange-yellow */
+    background-color: rgb(224, 158, 27);
+}
+
+/* Project 3 box's styling */
+.box-3 {
+    /* Gradient background for the project 3 box */
+    background: -moz-linear-gradient(left,rgb(255,15,123),rgb(248,155,41));
+    background: -webkit-linear-gradient(left,rgb(255,15,123),rgb(248,155,41));
+    background: linear-gradient(to right,rgb(255,15,123),rgb(248,155,41));
+    /* Sets the box3's width */
+    width: 1170px;
+    /* Sets the box3's height */
+    height: 150px;
+    /* Positions the box 3 horizontally */
+    margin-left: 13%;
+    /* Line spacing */
+    line-height: 199%;
+    /* Center text */
+    text-align: center;
+    /* Sets the background color to white */
+    background-color: white;
+}
+
+/* Project 4 title's styling  */
+.title-box-4 {
+    /* Sets the width for title box4 */
+    width: 400px;
+    /* Sets the font color to white */
+    color: white;
+    /* Sets the background to a purple */
+    background-color: rgb(152, 15, 125);
+}
+
+/* Project 4 box styling */
+.box-4 {
+    /* Sets the box4's width */
+    width: 400px;
+    /* Sets the box4's height */
+    height: 300px;
+    /* Positions the box 4 horizontally */
+    margin-left: 23%;
+    /* Line spacing */
+    line-height: 200%;
+    /* Center the text */
+    text-align: center;
+    /* Sets the background color to white */
+    background-color: white;
+    /* Gradient background for project 4 box */
+    background: -moz-linear-gradient(left,rgb(9,101,192),rgb(197,58,148));
+    background: -webkit-linear-gradient(left,rgb(9,101,192),rgb(197,58,148));
+    background: linear-gradient(to right,rgb(9,101,192),rgb(197,58,148));
+}
+
+/* Project 5 title styling */
+.title-box-5 {
+    /* Sets the width for title box 5 */
+    width: 400px;
+    /* Sets the background to purple */
+    background-color: rgb(152, 15, 125);
+    /* Sets the font color to white */
+    color: white;
+}
+
+/* Project 5 styling */
+.box-5 {
+    /* Sets the box5's width */
+    width: 400px;
+    /* Sets the box5's height */
+    height: 300px;
+    /* Positions the box 5 horizontally */
+    margin-left: 54.3%;
+    /* Adjusts the box5's vertical postion */
+    margin-top: -21.1%;
+    /* Center text  */
+    text-align: center;
+    /* Line Spacing */
+    line-height: 200%;
+    /* Sets the font size */
+    font-size: 97.2%;
+    /* Sets the background color to white */
+    background-color: white;
+    /* Gradient background for project 5 box */
+    background: -moz-linear-gradient(left,rgb(9,101,192),rgb(197,58,148));
+    background: -webkit-linear-gradient(left,rgb(9,101,192),rgb(197,58,148));
+    background: linear-gradient(to right,rgb(9,101,192),rgb(197,58,148));
+}
+
+/* Footer styling for the projects page */
+.footer-pos-projects {
+    /* Sets the backgorund color to black */
+    background-color: black;
+    /* Spaces the above text */
+    padding-top: 5px;
+    /* Spaces the below text */
+    padding-bottom: 5px;
+    /* Sets the font color to white */
+    color: white;
+    /* Center the text */
+    text-align: center;
+}
+
+/* Style for contactMe.html */
+
+/* Wrapper container for the whole form section */
+#wrapper {
+    /* Sets the width for the form box */
+    width: 960px;
+    /* Sets the height for the form box */
+    height: 800px;
+    /* Centers the align horizontally */
+    margin-left: auto;
+    /* Centers the align horizontally */
+    margin-right: auto;
+    /* Sets the background to lightstategrey */
+    background-color: LightSlateGrey;
+    /* Gradient background for form container */
+    background: -moz-linear-gradient(left,rgb(255,214,165),#FF6B6B);
+    background: -webkit-linear-gradient(left,rgb(255,214,165),#FF6B6B);
+    background: linear-gradient(to right,rgb(255,214,165),#FF6B6B);
+
+}
+
+/* THe title container for Contact Me heading */
+.title-center-contact {
+    /* This positioned the absolutely ro relative to the page */
+    position: absolute;
+    /* Sets the font size */
+    font-size: 20px;
+    /* Spacing from the top */
+    margin-top: 4%;
+    /* Centers it horizontlly */
+    margin-left: 43%;
+}
+
+/* Form container (That cneters the inputs on the page) */
+.center-form {
+    /* This positioned the absolutely ro relative to the page */
+    position: absolute;
+    /* Sets the width for the center-form */
+    width: 50%;
+    /* Pushes it down from the top */
+    margin-top: 13%;
+    /* Pushes it to the right */
+    margin-left: 18%;
+}
+
+/* Button container for the hover effect */
+.button :hover {
+    background-color: yellow;
+}
+
+/* Footer container for the Contact Me page */
+.footer-pos-contactme {
+    /* Spaces above the footer page */
+    margin-top: 16.4%;
+    /* Adjust it to the right of the margin */
+    margin-right: 12%;
+    /* Shift it to the left */
+    margin-left: -35%;
+    /* Sets the background to white */
+    background-color: white;
+
+    /* Gradient background for the footer */
+    background: -moz-linear-gradient(left,rgb(255,214,165),#FF6B6B);
+    background: -webkit-linear-gradient(left,rgb(255,214,165),#FF6B6B);
+    background: linear-gradient(to right,rgb(255,214,165),#FF6B6B);
+    /* Spaces above the footer text */
+    padding-top: 5px;
+    /* Spaces below the footer text */
+    padding-bottom: 5px;
+    /* Sets the font color to black */
+    color: black;
+    /* Centers the align footer text */
+    text-align: center;
+}
+
+
+/* Style for aboutMe.html */
+
+/* The center the About Me title text */
+.title-aboutme-center {
+    /* This allows the container to take the full width automactically */
+    width: auto;
+    /* This center-align of the text */
+    text-align: center;
+}
+
+/* The box container for the profile image */
+.box-6 {
+    /* Pushes the box to the center of horizontally */
+    margin-left: 35%;
+    /* Small spacing from the top */
+    margin-top: 2%;
+    /* This fixed the height for the box */
+    height: 340px;
+    /* Spacing above content inside the box */
+    padding-top: 10px;
+    /* Fixed width for box */
+    width: 270px;
+    /* Center-align image inside */
+    text-align: center;
+    /* Sets the background color to light yellow */
+    background-color: lightgoldenrodyellow;
+}
+
+/* Style for About Me paragraph */
+.aboutme-intro-p {
+    /* Center the paragraph */
+    text-align: center;
+    /* Sets the font size 17px */
+    font-size: 17px;
+}
+
+/* Container for video positioning */
+.video {
+    /* pushes the video to the right */
+    margin-left: 31.3%;
+}
+
+/* Footer styling with a gradient background */
+.footer-pos-aboutme {
+    /* Background color white */
+    background-color: white;
+    /* Gradient background from left to right */
+    background: -moz-linear-gradient(left,rgb(255,214,165),#FF6B6B);
+    background: -webkit-linear-gradient(left,rgb(255,214,165),#FF6B6B);
+    background: linear-gradient(to right,rgb(255,214,165),#FF6B6B);
+    /* Spacing above text */
+    padding-top: 5px;
+    /* Spacing the below text */
+    padding-bottom: 5px;
+    /* Makes the font color to black */
+    color: black;
+    /* Center-align footer text */
+    text-align: center;
+    
+}

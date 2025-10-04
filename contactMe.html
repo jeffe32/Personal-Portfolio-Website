@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- This is the page title that is displayed in the browser tab -->
+    <title>Contact Me</title>
+    <!-- Linking the external CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-width: 480px)">   
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width: 481px) and (max-width: 959px)">
+    <link rel="stylesheet" type="text/css" href="laptop.css" media="only screen and (min-width: 960px)">
+  </head>
+  <body>
+    <header>
+        <!-- Container for left-side home page link -->
+    <div class="Home-page-left">
+        <!-- linking it to the home page -->
+      <a href="index.html">Home Page</a>
+    </div>
+    
+    <!-- The container for the right-side navigation links -->
+    <div class="left-side-header">
+      <nav>
+        <!-- Links to About Me page -->
+        <a href="aboutMe.html">About Me</a>
+        <!-- Links to Projects page -->
+        <a href="projects.html">Projects</a>
+        <!-- Links to Contact Me page -->
+        <a href="contactMe.html">Contact Me</a>
+
+        <!-- This is the google fonts preconnect to google fonts for faster font loading -->      <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+        rel="stylesheet"/>
+      </nav>
+      </header>
+    </div>
+    <!-- The horizontal line below navigation -->
+    <hr background color="white" />
+
+    <!-- Container for the page title -->
+    <div class="title-center-contact">
+    <!-- Main heading -->
+    <h1>Contact Me</h1>
+    </div>
+
+    <!-- Form container -->
+    <form action="mailto:Rishikanth.manotheepan@ontariotechu.net?subject=Contact me"
+    enctype="text/plain" method="post" name="Contact me">
+
+    <!-- Main wrapper for container for form -->
+    <div id="wrapper">
+    <!-- Centered the form container -->
+    <div class="center-form">
+
+    <!-- First Name input field -->
+    <p>
+        <label for="FName">First Name: </label>
+        <input type="text" name="FName" size="40"
+        placeholder="Enter your First Name" required>
+    </p>
+
+    <!-- Last Name input field -->
+    <p>
+        <label for="LName">Last Name: </label>
+        <input type="text" name="LName" size="40"
+        placeholder="Enter your last name" required>
+    </p>
+
+    <!-- Phone Number field (Optional) -->
+    <p>
+        <label for="PhoneNum">Phone Number (optional):</label>
+        <input type="tel" name="Phone" id="Phone" placeholder=
+        "e.g. +1 555 123 4567">
+    </p>
+
+    <!-- Email input field -->
+    <p>
+        <label for="Email">Email:  </label>
+        <input type="email" name="Email" id="40"
+        placeholder="Enter your email address" required>
+    </p>
+    
+    <!-- Comments text container -->
+    <p>
+        <label for="comments">Comments: </label>
+        <br>
+        <textarea name="comments" cols="60" rows="8"></textarea>
+    </p>
+    
+    <!-- Buttons Container -->
+    <p>
+    <!-- Button container -->
+    <div class="button">
+    <!-- Reset button -->
+    <input type="reset"value="Reset">
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+    </div>
+    </p>
+</form>
+    <!-- Footer section -->
+     <footer>
+        <!-- Footer container -->
+      <div class="footer-pos-contactme">
+        <!-- Link to email -->
+        <p>Contact: <a href="mailto:Rishikanth.manotheepan@ontariotechu.net">Rishikanth.manotheepan@ontariotechu.net</a></a></p>
+        <!-- Copyright section -->
+        <p>&copy;2025 Rishikanth Manotheepan</p>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

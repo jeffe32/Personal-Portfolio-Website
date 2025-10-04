@@ -1,0 +1,102 @@
+
+<!-- Decleares the document as a HTML5 type -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- This is the page title that is displayed in the browser tab -->
+    <title>About Me</title>
+    <!-- Linking the external CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-width: 480px)">   
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width: 481px) and (max-width: 959px)">
+    <link rel="stylesheet" type="text/css" href="laptop.css" media="only screen and (min-width: 960px)">
+    <!-- End of the head section -->
+  </head>
+
+  
+  <body>
+    <!-- Container for left-side home page link -->
+    <div class="Home-page-left">
+        <!-- linking it to the home page -->
+      <a href="index.html">Home Page</a>
+    </div>
+
+    <!-- The container for the right-side navigation links -->
+    <div class="left-side-header">
+        <!-- Navigation block -->
+      <nav>
+        <!-- link to the About Me page -->
+        <a href="aboutMe.html">About Me</a>
+        <!-- Link to the Projects page -->
+        <a href="projects.html">Projects</a>
+        <!-- Link to the Contact Me page -->
+        <a href="contactMe.html">Contact Me</a>
+        <!-- This is the google fonts preconnect to google fonts for faster
+         font loading -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+          rel="stylesheet"
+        />
+      </nav>
+    </div>
+
+    <!-- The horizontal line below navigation -->
+    <hr background color="white" />
+
+    <!-- Thw wrapper for the main content -->
+    <div id="wrapper">
+        <!-- Container for About Me title -->
+      <div class="title-aboutme-center">
+        <!-- The main heading -->
+        <h1>About Me</h1>
+      </div>
+      <!-- Box container for the profile image -->
+      <div class="box-6">
+        <!-- The inner container for hte image positioning -->
+        <div class="image-pos">
+          <img
+            src="image.jpg" 
+            alt="Avatar"
+            class="img_deg1"
+            width="250"
+            height="330"
+          />
+        </div>
+    </div>
+
+        <!-- THe container for the About Me paragragh -->
+        <div class="aboutme-intro-p">
+      <p>My name is Kanth Manotheepan and I'm a 19-year-old Networking and IT
+        student at Ontario Tech University. I'm originally from Sri Lanka and I
+        have a twin brother studying here too at Ontario Tech. Outside of classes,
+        I'm a mechanic and enjoy down time down at the gym and cars. My hobbies
+        are problem-solving and technology.
+      </p>
+        </div>
+
+        <!-- The Container for video -->
+        <div class="video">
+        <video
+        id="video"
+        width="320"
+        height="240"
+        controls
+        poster="Kanth Manotheepan.jpg"
+        preload="auto"
+      >
+        <source src="IMG_8418.mp4" type="video/mp4" />
+      </video>
+      </div>
+
+        <footer>
+        <!-- Footer container -->
+      <div class="footer-pos-aboutme">
+        <!-- Link to email -->
+        <p>Contact: <a href="mailto:Rishikanth.manotheepan@ontariotechu.net">Rishikanth.manotheepan@ontariotechu.net</a></a></p>
+        <!-- Copyright notice -->
+        <p>&copy;2025 Rishikanth Manotheepan</p>
+      </div>
+  </body>
+</html>

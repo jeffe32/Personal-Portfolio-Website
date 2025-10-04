@@ -1,0 +1,72 @@
+/* Tablet styles */
+
+/* Navigation styling for tablet */
+.left-side-header {
+    /* Sets the offset to the left for alignment */
+    margin-left: 50%;
+    /* Sets the right align */
+    text-align: right;
+}
+
+.left-side-header a {
+    /* Sets the font size */
+    font-size: 16px;
+    /* Sets the spacing between links */
+    margin: 8px 15px;
+}
+
+.Home-page-left a {
+    /* Sets the font size */
+    font-size: 16px;
+}
+
+/* Centered intro text */
+.text-center {
+    /* Sets the width for tablet */
+    width: 70%;
+    /* Sets the top spacing and also the centered horizontally */
+    margin: 15% auto 20px auto;
+    /* center align the text */
+    text-align: center;
+}
+
+.left-center-text {
+    /* Sets the left margin */
+    margin-left: 0;
+    /* Sets the font size */
+    font-size: 32px;
+}
+
+/* Profile image container */
+.pos-center {
+    /* Sets the posision to relative */
+    position: relative;
+    /* Sets the width of the container */
+    width: 80%;
+    /* Centers it horizontally */
+    margin: 20px auto;
+    /* Sets the height to auto */
+    height: auto;
+}
+
+/* Profile image styling */
+.img_deg {
+    /* Block element for centering */
+    display: block;
+    /* Centers the image */
+    margin: 0 auto;
+    /* Sets the width for tablet */
+    width: 300px;
+    /* Sets the height to auto (aspect ratio) */
+    height: auto;
+}
+
+/* Footer adjustments */
+.footer-pos {
+    /* Adds space above for the footer */
+    margin-top: 60px;
+    /* Sets the top and bottom padding */
+    padding: 10px 0;
+    /* Center the text */
+    text-align: center;
+}
